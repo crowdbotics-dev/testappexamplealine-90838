@@ -20,7 +20,7 @@ const LoginScreen = ({
     })).then(response => {
       const result = unwrapResult(response);
       console.log(response);
-      navigation.navigate("Untitled4", result);
+      navigation.navigate("Untitled1", result);
     }).catch(err => {
       Alert.alert("Something went wrong!\n" + err.message);
       console.log(err.message);
